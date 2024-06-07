@@ -31,7 +31,7 @@ const AboutSectionTwo = () => {
                   AI-Powered Customer Engagement
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  ZionAi's AI tools, like chatbots and automation features, boost customer interactions and satisfaction. They offer 24/7 support, personalized responses, and quick solutions, leading to higher sales.
+                  ZionAi&apos;s AI tools, like chatbots and automation features, boost customer interactions and satisfaction. They offer 24/7 support, personalized responses, and quick solutions, leading to higher sales.
                 </p>
               </div>
               <div className="mb-9">
@@ -47,7 +47,7 @@ const AboutSectionTwo = () => {
                   Customizable Solutions
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  ZionAi's fully customizable AI solutions adapt to each client's unique needs, aligning with business goals, industry standards, and brand identity for optimized performance.
+                  ZionAi&apos;s fully customizable AI solutions adapt to each client&apos;s unique needs, aligning with business goals, industry standards, and brand identity for optimized performance.
                 </p>
               </div>
             </div>
