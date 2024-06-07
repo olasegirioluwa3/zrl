@@ -12,7 +12,7 @@ const Pricing = () => {
       <div className="container">
         <SectionTitle
           title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Our pricing plans are designed to cater to businesses of all sizes, ensuring you can find the perfect fit for your needs. Whether you're just starting to explore AI solutions or require advanced features for a large-scale operation, ZionAi offers flexible and cost-effective options to empower your business. Discover the right plan to enhance your customer engagement and drive growth"
           center
           width="665px"
         />
@@ -62,39 +62,39 @@ const Pricing = () => {
             packageName="Lite"
             price={isMonthly ? "10k" : "110k"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Ideal for businesses exploring AI solutions. Join us for a personalized introduction to our features."
           >
             <OfferList text="WhatsApp" status="active" />
             <OfferList text="Multiple User" status="active" />
-            <OfferList text="Auto Responder" status="active" />
-            <OfferList text="Automation" status="active" />
-            <OfferList text="AutoResponder Plus" status="inactive" />
+            <OfferList text="AutoResponder" status="active" />
+            <OfferList text="Automation" status="inactive" />
+            <OfferList text="AutoResponder Plus🔥" status="inactive" />
             <OfferList text="Business initiated message" status="inactive" />
           </PricingBox>
           <PricingBox
             packageName="Basic"
             price={isMonthly ? "30K" : "330K"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Perfect for SMEs, startups, and growing businesses. Enhance your client experience and scale your operations."
           >
             <OfferList text="WhatsApp" status="active" />
             <OfferList text="Multiple User" status="active" />
             <OfferList text="Auto Responder" status="active" />
             <OfferList text="Automation" status="active" />
-            <OfferList text="AutoResponder Plus" status="inactive" />
+            <OfferList text="AutoResponder Plus🔥" status="inactive" />
             <OfferList text="Business initiated message" status="inactive" />
           </PricingBox>
           <PricingBox
             packageName="Plus"
             price={isMonthly ? "100K" : "1.1M"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Designed for businesses requiring high-level customization and catering to prestigious clients. Collaborate with us for a tailored experience."
           >
             <OfferList text="WhatsApp" status="active" />
             <OfferList text="Multiple User" status="active" />
             <OfferList text="Auto Responder" status="active" />
             <OfferList text="Automation" status="active" />
-            <OfferList text="AutoResponder Plus" status="inactive" />
+            <OfferList text="AutoResponder Plus🔥" status="inactive" />
             <OfferList text="Business initiated message" status="inactive" />
           </PricingBox>
         </div>

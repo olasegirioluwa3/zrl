@@ -57,14 +57,14 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/zionai_logo.png"
+                  src="/images/logo/zionai-long-logo-blue.png"
                   alt="logo"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/logo/zionai_logo.png"
+                  src="/images/logo/zionai-long-logo-white.png"
                   alt="logo"
                   width={140}
                   height={30}
