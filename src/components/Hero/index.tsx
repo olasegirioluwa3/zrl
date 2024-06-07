@@ -18,8 +18,8 @@ const Hero = () => {
                   ZionAi is a communication solutions that helps businesses 
                   and brands in engaging and converting audience chat to actions and sales, 
                   empowering businesses through holistic Ai solutions 
-                  and infrastructures deploying independent intelligence 
-                  solutions online and offline Ai solutions to businesses.
+                  and infrastructures deploying independent online and offline 
+                  Ai solutions to businesses.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link

@@ -14,8 +14,7 @@ const Video = () => {
       <div className="container">
         <SectionTitle
           title="We are ready to help"
-          paragraph="There are many variations of use cases and your business use case will not be an exception. 
-          We have a dedicated team ready support you and your business."
+          paragraph="At ZionAi, we provide AI-driven tools for enhanced customer engagement and sales growth. Our multi-user WhatsApp, 24/7 AI support, advanced analytics, and customizable solutions meet your unique needs. No matter your use case, our dedicated team is ready to support you and ensure efficient operations."
           center
           mb="80px"
         />

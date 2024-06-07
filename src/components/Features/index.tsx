@@ -9,7 +9,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="ZionAi empowers businesses with a comprehensive suite of AI-driven tools designed to enhance customer engagement and operational efficiency. Key features include:"
             center
           />
 

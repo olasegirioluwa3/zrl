@@ -24,10 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Businesses and Media Agencies."
-                paragraph="Businesses will be able to use WhatsApp amongst 
-                other Social Media platforms to build engagement intelligence, 
-                and ultimate promote your agenda or convert to sales."
+                title="Crafted for Dynamic Businesses and Media Agencies."
+                paragraph="ZionAi is designed specifically for dynamic businesses and media agencies seeking to revolutionize their customer engagement and sales strategies. Our platform caters to a diverse range of industries, including"
                 mb="44px"
               />
 
@@ -37,15 +35,17 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="WhatsApp" />
-                    <List text="Automation" />
-                    <List text="Intelligence" />
+                    <List text="Small to Medium-sized Businesses (SMBs)" />
+                    <List text="Digital Marketing Agencies" />
+                    <List text="E-commerce Ventures" />
+                    <List text="Media and Entertainment Companies" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Independent Solutions" />
-                    <List text="Multiple Users" />
-                    <List text="Full Customization" />
+                    <List text="Customer Support Teams" />
+                    <List text="Sales and Marketing Teams" />
+                    <List text="Tech Innovators" />
+                    <List text="Government Agencies" />
                   </div>
                 </div>
               </div>
