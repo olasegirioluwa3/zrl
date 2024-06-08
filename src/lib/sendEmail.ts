@@ -42,9 +42,9 @@ export async function sendClientAndAdminEmails(clientEmail: string, clientName: 
   const adminEmail = 'zionrebornlimited@gmail.com'; // Replace with the admin's email address
   
   const clientSubject = 'Thank you for your message';
-  const clientText = `Hello ${clientName},\n\nThank you for reaching out to us. We have received your message: \n"${message}"\n\nBest regards,\nYour Company`;
+  const clientText = `Hello ${clientName},\n\nThank you for reaching out to us. We have received your message: \n"${message}"\n\nA dedicated member of our Customer Success Team will reach out to you shortly. \n\nBest regards,\nZionAi`;
   
-  const adminSubject = 'New Contact Form Submission';
+  const adminSubject = `New Contact Form Submission from ${clientName}`;
   const adminText = `You have received a new message from the contact form:\n\nName: ${clientName}\nEmail: ${clientEmail}\nMessage: ${message}`;
 
   await Promise.all([
