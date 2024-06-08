@@ -5,7 +5,7 @@ import { useState } from 'react';
 import NewsLatterBox from "./NewsLatterBox";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  const [formData, setFormData] = useState({ name: '', email: '', phonenumber: '', message: '' });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -25,7 +25,7 @@ const Contact = () => {
 
     if (res.ok) {
       alert('Form submitted successfully');
-      setFormData({ name: '', email: '', message: '' });
+      setFormData({ name: '', email: '', phonenumber: '', message: '' });
     } else {
       alert('Failed to submit form');
     }
@@ -81,6 +81,24 @@ const Contact = () => {
                         value={formData.email}
                         onChange={handleChange}
                         placeholder="Enter your email"
+                        className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-full px-4 md:w-1/2">
+                    <div className="mb-8">
+                      <label
+                        htmlFor="phonenumber"
+                        className="mb-3 block text-sm font-medium text-dark dark:text-white"
+                      >
+                        Your Phonenumber
+                      </label>
+                      <input
+                        type="tel"
+                        name="phonenumber"
+                        value={formData.phonenumber}
+                        onChange={handleChange}
+                        placeholder="Enter your Phonenumber"
                         className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                       />
                     </div>
