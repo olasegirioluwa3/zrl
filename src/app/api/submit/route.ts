@@ -14,6 +14,6 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ message: 'Form submitted successfully' });
   } catch (error) {
     console.error('Error handling form submission:', error);
-    return NextResponse.json({ message: 'Failed to submit form' }, { status: 500 });
+    return NextResponse.json({ message: error||'Failed to submit form' }, { status: 500 });
   }
 }
