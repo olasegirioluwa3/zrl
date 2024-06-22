@@ -1,15 +1,6 @@
-// lib/sendEmail.ts
+// /src/lib/sendEmail.ts
 import nodemailer from 'nodemailer';
 
-// const smtpConfig = {
-//   host: "smtp.hostinger.com",
-//   port: 465,
-//   secure: true, // True for 465, false for other ports
-//   auth: {
-//     user: 'oolasegiri@adeforum.org', // generated ethereal user
-//     pass: 'Olasegiri2021@',
-//   },
-// };
 const smtpConfig = {
   host: process.env.SMTP_HOST,
   port: parseInt(process.env.SMTP_PORT || '465', 10),

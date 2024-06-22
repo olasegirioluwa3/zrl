@@ -63,6 +63,7 @@ const Pricing = () => {
             price={isMonthly ? "10k" : "110k"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Ideal for businesses exploring AI solutions. Join us for a personalized introduction to our features."
+            link="/signup/lite"
           >
             <OfferList text="WhatsApp" status="active" />
             <OfferList text="Multiple User" status="active" />
@@ -76,6 +77,7 @@ const Pricing = () => {
             price={isMonthly ? "30K" : "330K"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Perfect for SMEs, startups, and growing businesses. Enhance your client experience and scale your operations."
+            link="/signup/basic"
           >
             <OfferList text="WhatsApp" status="active" />
             <OfferList text="Multiple User" status="active" />
@@ -89,6 +91,7 @@ const Pricing = () => {
             price={isMonthly ? "100K" : "1.1M"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Designed for businesses requiring high-level customization and catering to prestigious clients. Collaborate with us for a tailored experience."
+            link="/signup/plus"
           >
             <OfferList text="WhatsApp" status="active" />
             <OfferList text="Multiple User" status="active" />
