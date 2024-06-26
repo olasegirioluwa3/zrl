@@ -20,6 +20,7 @@ export default function RootLayout({
         <head /> will contain the components returned by the nearest parent
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
+        <meta name="facebook-domain-verification" content="y58sgdfkvasyu4gfabm843y5tmwq3t" />
       <head />
 
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
