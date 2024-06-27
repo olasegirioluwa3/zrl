@@ -6,7 +6,7 @@ const TermsAndConditions = () => {
       <div className="max-w-4xl mx-auto p-6">
         <h1 className="text-3xl font-bold mb-4">Terms and Conditions</h1>
         <p className="mb-4">
-          Welcome to ZionAi! These terms and conditions outline the rules and regulations for the use of ZionAi's website and services, operated by Zion Reborn Limited. By accessing this website and using our services, we assume you accept these terms and conditions in full.
+          Welcome to ZionAi! These terms and conditions outline the rules and regulations for the use of ZionAi&apos;s website and services, operated by Zion Reborn Limited. By accessing this website and using our services, we assume you accept these terms and conditions in full.
         </p>
         
         <h2 className="text-2xl font-bold mt-6 mb-2">1. License to Use</h2>
