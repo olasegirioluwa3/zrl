@@ -2,13 +2,6 @@ import { Brand } from "@/types/brand";
 
 const brandsData: Brand[] = [
   {
-    id: 1,
-    name: "ZRU",
-    href: "",
-    image: "/images/brands/zionreborn-university-logo.png",
-    imageLight: "/images/brands/zionreborn-university-logo.png",
-  },
-  {
     id: 2,
     name: "Futca",
     href: "",
@@ -20,7 +13,7 @@ const brandsData: Brand[] = [
     name: "Earlyschool",
     href: "",
     image: "/images/brands/earlyschool-logo.jpg",
-    imageLight: "/images/brands/earlyschool-logo.jpg",
+    imageLight: "/images/brands/earlyschool-logo.jpg",  
   },
   {
     id: 6,
