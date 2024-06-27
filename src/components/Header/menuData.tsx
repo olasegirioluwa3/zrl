@@ -15,14 +15,20 @@ const menuData: Menu[] = [
   },
   {
     id: 3,
-    title: "Support",
+    title: "Contact",
     path: "/contact",
     newTab: false,
   },
   {
     id: 4,
     title: "Terms and Conditions",
-    path: "/terms-and-cnditions",
+    path: "/terms-and-conditions",
+    newTab: false,
+  },
+  {
+    id: 5,
+    title: "Privacy Policy",
+    path: "/privacy-policy",
     newTab: false,
   },
 ];
