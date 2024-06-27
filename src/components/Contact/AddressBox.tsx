@@ -11,7 +11,7 @@ const AddressBox = () => {
         Contact Information
       </h3>
       <p className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
-        Address: No 262 Odo-akuo street, Ogele, Asa LGA, Kwara State.
+        Address: NO. 262, ODO-AKUO STREET, OGELE, KWARA STATE, NIGERIA
       </p>
       <p className="mb-0 border-body-color border-opacity-25 pb-0 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
         Phone Nnumber: +234 7034341410
