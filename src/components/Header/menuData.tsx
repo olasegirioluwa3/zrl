@@ -31,5 +31,11 @@ const menuData: Menu[] = [
     path: "/privacy-policy",
     newTab: false,
   },
+  {
+    id: 6,
+    title: "Data Policy",
+    path: "/data-policy",
+    newTab: false,
+  },
 ];
 export default menuData;
