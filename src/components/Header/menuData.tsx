@@ -19,5 +19,11 @@ const menuData: Menu[] = [
     path: "/contact",
     newTab: false,
   },
+  {
+    id: 4,
+    title: "Terms and Conditions",
+    path: "/terms-and-cnditions",
+    newTab: false,
+  },
 ];
 export default menuData;
