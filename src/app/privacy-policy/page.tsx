@@ -50,7 +50,7 @@ const PrivacyPolicy = () => {
         </ul>
         <p className="mb-4">If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us at our provided contact information.</p>
 
-        <h2 className="text-2xl font-bold mt-6 mb-2">Children's Privacy</h2>
+        <h2 className="text-2xl font-bold mt-6 mb-2">Children&apos;s Privacy</h2>
         <p className="mb-4">Our services are not intended for children under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If we become aware that we have collected personal data from a child under 13 without verification of parental consent, we will take steps to delete that information from our servers.</p>
 
         <h2 className="text-2xl font-bold mt-6 mb-2">International Data Transfers</h2>
