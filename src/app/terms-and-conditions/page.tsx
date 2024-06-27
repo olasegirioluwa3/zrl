@@ -43,8 +43,8 @@ const TermsAndConditions = () => {
         <h2 className="text-2xl font-bold mt-6 mb-2">Contact Us</h2>
         <ul className="list-none mb-4">
           <li><strong>Address:</strong> No 262 Odo-akuo Street, Ogele, Asa LGA, Kwara State.</li>
-          <li><strong>Phone Number:</strong> +234 7034341410</li>
-          <li><strong>Email:</strong> <a href="mailto:support@zionai.com" className="text-blue-500">support@zionai.com</a></li>
+          <li><strong>Phone Number:</strong> +2347034341410</li>
+          <li><strong>Email:</strong> <a href="mailto:support@zionai.com.ng" className="text-blue-500">support@zionai.com.ng</a></li>
         </ul>
       </div>
     </section>
